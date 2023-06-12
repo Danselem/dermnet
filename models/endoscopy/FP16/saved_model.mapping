@@ -1,0 +1,1019 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="vgg19_input" output_port_id="vgg19_input:0" />
+		<IR name="vgg19_input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="vgg19_input" output_port_id="vgg19_input:0" />
+		<IR name="vgg19_input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="vgg19_input" output_port_id="vgg19_input:0" />
+		<IR name="vgg19_input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="vgg19_input" output_port_id="vgg19_input" />
+		<IR name="vgg19_input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="vgg19_input" output_port_id="vgg19_input" />
+		<IR name="vgg19_input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="vgg19_input" output_port_id="vgg19_input" />
+		<IR name="vgg19_input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="vgg19_input/mean/Fused_Add_" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="vgg19_input/mean/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="vgg19_input/mean/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block1_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block1_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block1_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block2_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block2_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block2_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_conv4/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block3_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block3_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block3_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_conv4/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block4_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block4_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block4_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv3/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Relu" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_conv4/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_pool/MaxPool/Transpose" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_pool/MaxPool/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/vgg19/block5_pool/MaxPool" output_port_id="StatefulPartitionedCall/sequential_5/vgg19/block5_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/vgg19/block5_pool/MaxPool/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/flatten_5/Const" output_port_id="StatefulPartitionedCall/sequential_5/flatten_5/Const:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/flatten_5/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/flatten_5/Const" output_port_id="StatefulPartitionedCall/sequential_5/flatten_5/Const:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/flatten_5/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/flatten_5/Reshape" output_port_id="StatefulPartitionedCall/sequential_5/flatten_5/Reshape:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/flatten_5/Reshape" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/flatten_5/Reshape" output_port_id="StatefulPartitionedCall/sequential_5/flatten_5/Reshape:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/flatten_5/Reshape" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_25/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dense_25/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_25/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_26/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dense_26/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_26/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dropout_5/Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dropout_5/Identity" output_port_id="StatefulPartitionedCall/sequential_5/dropout_5/Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dropout_5/Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dropout_5/Identity" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dense_27/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_27/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_28/Relu" output_port_id="StatefulPartitionedCall/sequential_5/dense_28/Relu:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_28/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/MatMul/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/MatMul" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/MatMul:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/ReadVariableOp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/Add" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_43" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_43" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/Softmax:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/Softmax:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/Softmax:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/Softmax:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_43" output_port_id="StatefulPartitionedCall/sequential_5/dense_29/Softmax:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="Func/StatefulPartitionedCall/output/_43:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Func/StatefulPartitionedCall/output/_43:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Func/StatefulPartitionedCall/output/_43:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="Func/StatefulPartitionedCall/output/_43:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_43" output_port_id="Func/StatefulPartitionedCall/output/_43:0" />
+		<IR name="StatefulPartitionedCall/sequential_5/dense_29/Softmax" output_port_id="1" />
+	</map>
+</mapping>
